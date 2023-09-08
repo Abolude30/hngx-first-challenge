@@ -12,6 +12,6 @@ let cTime = document.getElementById('time');
 
 const time = new Date();
 
-const t = new Intl.DateTimeFormat("en-us",{timeStyle : "full"});
+let mili = time.getUTCMilliseconds();
 
-cTime.innerText = t.format(time);
+cTime.innerText = mili;
