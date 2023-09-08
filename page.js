@@ -10,7 +10,7 @@ cDay.innerText = f.format(date);
 
 let cTime = document.getElementById('time');
 
-const time = new Date();
+let time = new Date();
 
 let mili = time.getUTCMilliseconds();
 
